@@ -1,0 +1,14 @@
+/* Contact form styles */
+form {
+  .ng-invalid.ng-touched:not(form) {
+    @apply border-red-500;
+  }
+
+  .error-message {
+    @apply text-red-500 text-sm mt-1;
+  }
+
+  button[disabled] {
+    @apply bg-blue-400 cursor-not-allowed;
+  }
+}
